@@ -303,6 +303,10 @@ export interface IImageInfo {
    * 初始是否不超高 TODO:
    */
   freeWidth?: boolean;
+  /**
+   * Image can decide to not have the Wrapper with PanResponder
+   */
+  noWrapper?: boolean;
 }
 
 export interface IImageSize {
